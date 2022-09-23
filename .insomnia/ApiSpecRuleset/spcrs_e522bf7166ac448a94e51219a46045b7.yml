@@ -4,5 +4,23 @@ parentId: wrk_9e255d256cc04edeaf3dc59d34bc4e15
 modified: 1663899548331
 created: 1663899548328
 fileName: New Document
-contents: ""
+contents: "extends: \"spectral:oas\"
+
+  rules:
+
+  \  my-rule-name:\ 
+
+  \    description: Tags must have a description.
+
+  \    given: $.tags[*]
+
+  \    severity: error
+
+  \    then:\ 
+
+  \      field: description
+
+  \      function: truthy
+
+  \      "
 contentType: yaml

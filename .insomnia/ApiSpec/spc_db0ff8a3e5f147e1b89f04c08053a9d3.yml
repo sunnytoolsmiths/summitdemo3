@@ -1,10 +1,10 @@
 _id: spc_db0ff8a3e5f147e1b89f04c08053a9d3
 type: ApiSpec
 parentId: wrk_9e255d256cc04edeaf3dc59d34bc4e15
-modified: 1663953586731
+modified: 1663956245721
 created: 1663840108255
 fileName: feedback
-contents: >
+contents: >+
   openapi: 3.0.0
 
   info:
@@ -18,7 +18,7 @@ contents: >
   servers:
     - url: "https://api.kongairways.com"
   paths:
-    /sunny:
+    /feedback:
       get:
         operationId: list-feedback
         summary: List all available feedback
@@ -93,7 +93,6 @@ contents: >
                       title: Missing Parameter
                       detail: "The [flight_number] parameter is missing"
                       instance: "t:kS92j7H"
-
   components:
     schemas:
       FeedbackCreate:
@@ -142,4 +141,6 @@ contents: >
   tags:
     - name: feedback
       description: This will be filled out later
+
+
 contentType: yaml
