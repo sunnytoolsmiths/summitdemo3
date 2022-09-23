@@ -1,7 +1,7 @@
 _id: spc_db0ff8a3e5f147e1b89f04c08053a9d3
 type: ApiSpec
 parentId: wrk_9e255d256cc04edeaf3dc59d34bc4e15
-modified: 1663951594226
+modified: 1663953586731
 created: 1663840108255
 fileName: feedback
 contents: >
@@ -18,7 +18,7 @@ contents: >
   servers:
     - url: "https://api.kongairways.com"
   paths:
-    /feedback:
+    /sunny:
       get:
         operationId: list-feedback
         summary: List all available feedback
