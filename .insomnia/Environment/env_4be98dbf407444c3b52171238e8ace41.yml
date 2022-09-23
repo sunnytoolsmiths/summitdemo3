@@ -1,0 +1,18 @@
+_id: env_4be98dbf407444c3b52171238e8ace41
+type: Environment
+parentId: env_5d751f6cb04b2728450490ab7588b91983478c99
+modified: 1663840182694
+created: 1663840171927
+name: Staging
+data:
+  scheme: https
+  base_path: ""
+  host: api.staging.kongairways.com
+dataPropertyOrder:
+  "&":
+    - scheme
+    - base_path
+    - host
+color: null
+isPrivate: false
+metaSortKey: 1663840171927

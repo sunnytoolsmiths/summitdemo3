@@ -1,0 +1,18 @@
+_id: env_env_5d751f6cb04b2728450490ab7588b91983478c99_sub
+type: Environment
+parentId: env_5d751f6cb04b2728450490ab7588b91983478c99
+modified: 1663840177669
+created: 1663840148845
+name: OpenAPI env
+data:
+  scheme: https
+  base_path: ""
+  host: api.kongairways.com
+dataPropertyOrder:
+  "&":
+    - scheme
+    - base_path
+    - host
+color: null
+isPrivate: false
+metaSortKey: 1663840148845

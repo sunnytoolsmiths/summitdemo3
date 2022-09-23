@@ -1,0 +1,24 @@
+_id: req_wrk_9e255d256cc04edeaf3dc59d34bc4e15ae02afbd
+type: Request
+parentId: fld_wrk_9e255d256cc04edeaf3dc59d34bc4e15ef15f48c
+modified: 1663840148838
+created: 1663840148838
+url: "{{ base_url }}/feedback"
+name: List all available feedback
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: sentiment
+    disabled: true
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1663840148838
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

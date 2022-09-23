@@ -1,0 +1,31 @@
+_id: req_wrk_9e255d256cc04edeaf3dc59d34bc4e157bfe376e
+type: Request
+parentId: fld_wrk_9e255d256cc04edeaf3dc59d34bc4e15ef15f48c
+modified: 1663840148835
+created: 1663840148835
+url: "{{ base_url }}/feedback"
+name: Create feedback
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "flight_number": "KA981",
+      "flight_date": "2022-09-25",
+      "sentiment": "positive",
+      "text": "Thank you to Charlie in the main cabin who went above and beyond when I realised I hadn't\nsubmitted my dietary requirements on time. They found me something to eat and made me feel\nlike it wasn't an issue at all.\n"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1663840148835
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
